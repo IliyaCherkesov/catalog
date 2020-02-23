@@ -27,7 +27,8 @@ export class Category extends React.Component {
     }
 
     selected(item) {
-        return false;
+        console.log('Item is', item);
+        return true;
     }
 
     render() {
