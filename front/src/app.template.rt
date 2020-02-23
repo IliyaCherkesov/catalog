@@ -1,0 +1,11 @@
+<rt-import name="UIView" from="@uirouter/react" />
+<rt-import name="Menu" from="./category/menu.component" />
+<rt-import name="CategoriesContext" from="./contextes/categories.context" />
+
+<div id="app-div" rt-scope="this.state as state; state.categories as categories; state.currentCategory as currentCategory">
+    <h1>Details site</h1>
+    <CategoriesContext.Provider value="{{ categories, currentCategory }}">
+        <Menu />
+        <UIView />
+    </CategoriesContext.Provider>
+</div>

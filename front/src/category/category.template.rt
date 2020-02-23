@@ -1,0 +1,14 @@
+<rt-import name="UISref" from="@uirouter/react" />
+<rt-import name="UIView" from="@uirouter/react" />
+
+<div rt-scope="this.state as state; state.category as category">
+    <div class="breadcrumbs">
+        <UISref to="app"><a>root</a></UISref> -&gt;
+        <UISref to="app.categories.category" params="{{ categoryId: category.id }}">
+            <a>{ category.name }</a>
+        </UISref>
+    </div>
+
+    <h2>{ category.name }</h2>
+    <UIView />
+</div>

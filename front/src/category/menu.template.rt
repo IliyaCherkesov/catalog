@@ -1,0 +1,14 @@
+<rt-import name="UISref" from="@uirouter/react" />
+
+<div rt-scope="this.state as state; state.categories as categories; state.currentCategory as current" class="menu">
+    <div rt-repeat="category in categories" class="menu-item" key="{category.id}">
+        <rt-virtual rt-if="category.id !== (current ? current.id : null)">
+            <UISref to="app.categories.category" params="{{ categoryId: category.id }}">
+                <a>{ category.name }</a>
+            </UISref>
+        </rt-virtual>
+        <rt-virtual rt-if="category.id === (current ? current.id : null)">
+            <strong>{ category.name }</strong>
+        </rt-virtual>
+    </div>
+</div>

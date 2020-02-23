@@ -1,0 +1,10 @@
+1. Что такое frontend и что такое backend
+2. Язык программирования Javascript и backend версия js NodeJS
+3. Протокол передачи данных HTTP (hypertext transport protocol)
+4. Базы данных, MySQL и язык работы с данными SQL
+    4.1 Установка СУБД, создание новой базы данных (app), введение в язык  <--- we are here
+    4.2 Разработка базы данных и введение в четыре основные команды SQL (SELECT, INSERT, DELETE, UPDATE)
+
+5. Язык разметки веб-страниц HTML (hypertext markup language) (5)
+6. CSS (cascade style sheet) - язык для определения стиля документа (3)\
+7. Веб-сервер nginx

@@ -1,0 +1,23 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "description": "my first web application",
+  "main": "app.js",
+  "watch": {
+    "start": "app.js"
+  },
+  "scripts": {
+    "watch": "npm-watch start",
+    "start": "node app"
+  },
+  "author": "Iliya Cherkesov",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {
+    "npm-watch": "^0.6.0"
+  }
+}
