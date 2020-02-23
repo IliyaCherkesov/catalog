@@ -1,0 +1,8 @@
+Learn GIT commands:
+    push
+    pull
+    commit
+    merge
+    checkout
+    fetch
+    branch
